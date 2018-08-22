@@ -27,6 +27,6 @@ public class ExampleMod implements BlockAdder, ItemAdder, TileEntityTypeAdder {
 
     @Override
     public void registerTileEntityTypes() {
-        EXAMPLE_TE = TileEntityType.registerTileEntityType("examplemod:example_block", TileEntityType.Builder.create(TileEntityGenerator::new));
+        EXAMPLE_TE = TileEntityType.registerTileEntityType("examplemod:example_block", TileEntityType.Builder.create(TileEntityExample::new));
     }
 }

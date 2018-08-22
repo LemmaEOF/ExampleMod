@@ -1,4 +1,4 @@
-package space.bbkr.zeropoint;
+package com.example.examplemod;
 
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
