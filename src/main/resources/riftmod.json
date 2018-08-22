@@ -1,0 +1,11 @@
+{
+  "id": "examplemod",
+  "name": "Example Mod",
+  "version": "1.0",
+  "authors": [
+  ],
+  "listeners": [
+    "com.example.examplemod.ExampleMod",
+    "com.example.examplemod.ExampleModCore"
+  ]
+}
